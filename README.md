@@ -18,8 +18,8 @@ There are 9 main UVM Phases.
     RUN |       \_____________________/
     TIME|                 ||
         |            _____\/______      _
-        |		    /    RUN      \      |  ONE AND ONLY TASK FROM ALL THE PHASES. CAN TAKE DELAYS. ALL OTHER
-        |_		    \_____________/     _|  UVM_PHASES ARE FUNCTIONS.
+        |           /    RUN      \      |  ONE AND ONLY TASK FROM ALL THE PHASES. CAN TAKE DELAYS.
+        |_          \_____________/     _|  ALL OTHER UVM_PHASES ARE FUNCTIONS.
                           ||
                      _____\/______
                     /   EXTRACT   \        _
