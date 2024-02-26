@@ -13,10 +13,10 @@ There are 9 main UVM Phases.
                 / END_OF_ELABORATION \      |
                 \____________________/     _|
                           ||             
-        _        _________\/__________
+         _       _________\/__________
         |       / START OF SIMULATION \ 
-RUN     |       \_____________________/
-TIME    |                 ||
+    RUN |       \_____________________/
+    TIME|                 ||
         |            _____\/______      _
         |		    /    RUN      \      |  ONE AND ONLY TASK FROM ALL THE PHASES. CAN TAKE DELAYS. ALL OTHER
         |_		    \_____________/     _|  UVM_PHASES ARE FUNCTIONS.
