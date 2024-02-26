@@ -1,0 +1,15 @@
+directory files
+
+message m1 reg[13:0]
+message m1 some_class
+
+env patel
+    contains fred f1
+    contains fred f2
+    contains jack jj
+
+scoreboard fred
+    sends m1 m1
+scoreboard jack
+    sends m2 jackm2
+

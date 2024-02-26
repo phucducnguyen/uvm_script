@@ -1,0 +1,1 @@
+The Purpose of this script is to generate the UVM template
